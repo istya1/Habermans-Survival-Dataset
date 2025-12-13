@@ -4,7 +4,7 @@
 - **Nama:** Istya Yulia Amesti  
 - **NIM:** 233307019  
 - **Repo:** [github.com/istya1/Habermans-Survival-Dataset](https://github.com/istya1/Habermans-Survival-Dataset)  
-- **Video:** *[[Link video pembahasan]](https://drive.google.com/drive/folders/1aS62XsA_7xWRFJY6QpDR0U7f17nP22xv?usp=sharing)*  
+- **Video:** *[(https://drive.google.com/drive/folders/1aS62XsA_7xWRFJY6QpDR0U7f17nP22xv?usp=sharing)]*  
 
 ---
 
@@ -34,6 +34,26 @@ Proyek ini membandingkan tiga pendekatan pemodelan—**Baseline (Logistic Regres
 ---
 
 ## 📁 Struktur Repository
+project/
+│
+├── data/                          # Dataset
+│   └── haberman_clean_istya.csv
+│
+├── notebooks/                    
+├── src/                          
+├── models/                        # Saved models
+│   ├── model_istya.h5             # Model Deep Learning (MLP)
+│   └── scaler_istya.pkl           # StandardScaler
+│
+├── images/                        # Visualizations
+│   ├── training_curves_istya.png
+│   └── confusion_matrix_istya.png
+│
+├── project_report_istya.txt       # Laporan hasil training
+├── requirements.txt               # Dependencies
+├── .gitignore
+└── README.md
+
 ## 📊 Dataset: Haberman's Survival
 - **Sumber:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/haberman%27s+survival)
 - **Jumlah Data:** 306 sampel pasien
