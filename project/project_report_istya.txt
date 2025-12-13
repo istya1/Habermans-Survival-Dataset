@@ -1,0 +1,30 @@
+============================================================
+LAPORAN PROYEK - PREDIKSI KELANGSUNGAN HIDUP PASIEN
+============================================================
+
+Model: model_istya.h5
+Tanggal: 2025-12-13 14:07:08
+Dibuat oleh: [Nama Anda]
+
+INFORMASI DATASET:
+----------------------------------------
+Total sampel: 306
+Fitur: Age, Year_of_Operation, Positive_Axillary_Nodes
+Target: Survival_Status
+Pasien bertahan: 225
+Pasien meninggal: 81
+
+HASIL EVALUASI MODEL:
+----------------------------------------
+Waktu Training: 9.86 detik
+Akurasi Testing: 0.6935 (69.35%)
+Loss Testing: 0.6485
+
+FILE YANG DISIMPAN:
+----------------------------------------
+📁 project/models/model_istya.h5
+📁 project/models/scaler_istya.pkl
+📁 project/data/haberman_clean_istya.csv
+📁 project/images/training_curves_istya.png
+📁 project/images/confusion_matrix_istya.png
+============================================================
