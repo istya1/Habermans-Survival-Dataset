@@ -1,4 +1,39 @@
+# 🏥 Analisis Perbandingan Model untuk Prediksi Kelangsungan Hidup Pasien Kanker Payudara
 
+## 👤 Informasi
+- **Nama:** Istya Yulia Amesti  
+- **NIM:** 233307019  
+- **Repo:** [github.com/istya1/Habermans-Survival-Dataset](https://github.com/istya1/Habermans-Survival-Dataset)  
+- **Video:** *[[Link video pembahasan]](https://drive.google.com/drive/folders/1aS62XsA_7xWRFJY6QpDR0U7f17nP22xv?usp=sharing)*  
+
+---
+
+## 📘 Ringkasan Proyek
+Proyek ini membandingkan tiga pendekatan pemodelan—**Baseline (Logistic Regression)**, **Advanced Machine Learning (Random Forest)**, dan **Deep Learning (Multilayer Perceptron)**—untuk memprediksi kelangsungan hidup pasien kanker payudara menggunakan **Haberman's Survival Dataset**. Tujuan utamanya adalah menentukan model terbaik yang dapat mendukung pengambilan keputusan klinis awal.
+
+### ✅ Pencapaian Utama:
+- Melakukan analisis mendalam terhadap karakteristik dataset medis.
+- Membangun pipeline data preparation yang komprehensif.
+- Mengembangkan dan melatih tiga model dengan arsitektur berbeda.
+- Mengevaluasi performa menggunakan metrik yang relevan untuk data tidak seimbang.
+- Menentukan model **Deep Learning (MLP)** sebagai model terbaik dengan **F1-Score 0.89**.
+
+---
+
+## 🎯 Problem & Goals
+**Permasalahan:**
+1. Dataset memiliki fitur terbatas dan ketidakseimbangan kelas yang signifikan.
+2. Hubungan antara fitur klinis (usia, tahun operasi, jumlah nodus) dengan target survival bersifat kompleks dan non-linear.
+3. Diperlukan model yang akurat untuk membantu identifikasi awal risiko pasien.
+
+**Tujuan:**
+1. Membangun dan membandingkan tiga model (Baseline, ML, DL) untuk prediksi survival.
+2. Mengevaluasi performa dengan metrik seperti Accuracy, Precision, Recall, dan F1-Score.
+3. Menghasilkan pipeline analisis yang reproducible dan terstruktur.
+
+---
+
+## 📁 Struktur Repository
 ## 📊 Dataset: Haberman's Survival
 - **Sumber:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/haberman%27s+survival)
 - **Jumlah Data:** 306 sampel pasien
