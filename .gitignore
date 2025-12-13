@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# File besar (jangan upload)
+*.h5
+*.pkl
+*.pth
+*.zip
+
+# Dataset (hanya sample kecil)
+data/*
+!data/sample_*.csv
+
+# System
+.DS_Store
+Thumbs.db
