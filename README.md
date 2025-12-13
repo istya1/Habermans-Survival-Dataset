@@ -32,8 +32,8 @@ Proyek ini membandingkan tiga pendekatan pemodelan—**Baseline (Logistic Regres
 3. Menghasilkan pipeline analisis yang reproducible dan terstruktur.
 
 ---
-
 ## 📁 Struktur Repository
+```
 project/
 │
 ├── data/                          # Dataset
@@ -53,6 +53,7 @@ project/
 ├── requirements.txt               # Dependencies
 ├── .gitignore
 └── README.md
+```
 
 ## 📊 Dataset: Haberman's Survival
 - **Sumber:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/haberman%27s+survival)
